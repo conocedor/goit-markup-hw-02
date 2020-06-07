@@ -106,6 +106,8 @@ body {
 }
 
 .section-subtitle {
+    /* color: var(--primary-white-color); */
+    
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
@@ -160,6 +162,13 @@ body {
 
 .telephone {
     color: var(--footer-telephone-color);
+}
+
+.mail:hover,
+.mail:focus,
+.telephone:hover,
+.telephone:focus {
+    color: var(--accent-color);
 }
 
 .social {
