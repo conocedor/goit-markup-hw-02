@@ -1,0 +1,227 @@
+:root {
+    --primary-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --team-background-color: #F5F4FA;
+    --footer-background-color: #2F303A;
+    --footer-mail-color: #C4C4C4;
+    --footer-telephone-color: rgba(255, 255, 255, 0.4);
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Студия */
+/* Хедер */
+.logo {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo-web {
+    color: var(--accent-color);
+}
+
+.logo-studio-header {
+    color: var(--primary-black-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts .link {
+    color: var(--paragraph-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Мейн */
+.hero-title {
+    /* color: var(--primary-white-color); */
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.features-subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--paragraph-text-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.work {
+    background-color: var(--team-background-color);
+}
+
+.team-text {
+    color: var(--paragraph-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.clients .clients-item {
+    color: #AFB1B8;
+}
+
+.clients .clients-item:hover,
+.clients .clients-item:focus {
+    color: var(--accent-color);
+}
+
+/* Футер */
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+.logo-studio-footer {
+    color: var(--primary-white-color);
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.adr {
+    color: var(--primary-white-color);
+}
+
+.mail {
+    color: var(--footer-mail-color);
+}
+
+.telephone {
+    color: var(--footer-telephone-color);
+}
+
+.social {
+    color: var(--primary-white-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.developer-text {
+    color: var(--footer-telephone-color);
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* Портфолио */
+.filters-button {
+    background-color: var(--team-background-color);
+    
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+
+.projects-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--paragraph-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
